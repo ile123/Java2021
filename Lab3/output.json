@@ -1,0 +1,21 @@
+{
+  "topic": "Voda",
+  "broker": "tcp://localhost:1883",
+  "ClientID": "koko",
+  "sensors": [
+    {
+      "data_name": "temperatura",
+      "data_type": "int16",
+      "factor": 10,
+      "size": 122,
+      "unit": "C"
+    },
+    {
+      "data_name": "tlak",
+      "data_type": "uint16",
+      "factor": 1000,
+      "size": 49,
+      "unit": "Bar"
+    }
+  ]
+}
